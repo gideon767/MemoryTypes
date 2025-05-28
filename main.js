@@ -58,15 +58,15 @@ const questions = [
         ]
     },
     {
-        question: "Which of these is a type of ROM?",
+        question: "Which of these is a programmable type of ROM?",
         answers: [
-            {text: "EPROM", correct: true},
             {text: "DRAM", correct: false},
-            {text: "PROM", correct: false},
+            {text: "EPROM", correct: true},
+            {text: "SRAM", correct: false},
         ]
     },
     {
-        question: "What is virtual memomry?",
+        question: "What is virtual memory?",
         answers: [
             {text: "A technique to use SSD/HDD space as RAM", correct: true},
             {text: "A type of cloud storage", correct: false},
@@ -82,11 +82,11 @@ const questions = [
         ]
     },
     {
-        question: "What is the key disadvantage of flash memory?",
+        question: "What is the major drawback to NAND flash memory?",
         answers: [
-            {text: "Requires constant power to retain data", correct: false},
-            {text: "Limited write/erase cycles", correct: true},
-            {text: "Slow access speeds", correct: false},
+            {text: "Higher power consumption", correct: false},
+            {text: "Slower read/write speeds", correct: false},
+            {text: "Limited lifespan due to write cycles", correct: true},
         ]
     },
     {
