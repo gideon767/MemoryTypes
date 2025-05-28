@@ -188,19 +188,19 @@ const showScore = ()=> {
         questionElement.innerHTML = `<strong>Eeeii Koo, Wa hwe Ase!😂</strong> <br> You scored ${score} out of 
         ${questions.length}
         <br>
-        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES">
+        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES.docx">
         Download Presentation <small>NOTES</small></a>` 
     } else if (score < 11) {
         questionElement.innerHTML = `<strong> Oh nice!😎 <br></strong> You scored ${score} out of 
         ${questions.length}
         <br>
-        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES">
+        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES.docx">
         Download Presentation <small>NOTES</small></a>`
     } else {
         questionElement.innerHTML = `<strong> You do all!🎉🎊</strong> <br> You scored ${score} out of 
         ${questions.length}
         <br>
-        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES">
+        <a href="pdf/MEMORY TYPES.docx" download="MEMORY TYPES.docx">
         Download Presentation <small>NOTES</small></a>`
     }
     nextButton.innerHTML = "Play Again"
